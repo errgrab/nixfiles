@@ -7,7 +7,7 @@
 	imports = [
 		./config/pkgs/pkgs.nix
 		./config/waybar/waybar.nix
-#		./config/hyprland/hyprland.nix # TODO
+#		./config/hyprland/hyprland.nix # TODO: Why not do my config in nix?
 #		./config/kitty/kitty.nix # Chezmoi
 #		./config/tmux/tmux.nix # Chezmoi
 #		./config/neovim/neovim.nix # Chezmoi
