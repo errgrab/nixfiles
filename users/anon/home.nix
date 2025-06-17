@@ -7,15 +7,16 @@
 	imports = [
 		./config/pkgs/pkgs.nix
 		./config/waybar/waybar.nix
-		./config/kitty/kitty.nix
-		./config/tmux/tmux.nix
-		./config/neovim/neovim.nix
-		./config/helix/helix.nix
-		./config/zsh/zsh.nix
-		./config/starship/starship.nix
-		./config/git/git.nix
-		./config/kakoune/kakoune.nix
-		./config/files/files.nix
+#		./config/hyprland/hyprland.nix # TODO
+#		./config/kitty/kitty.nix # Chezmoi
+#		./config/tmux/tmux.nix # Chezmoi
+#		./config/neovim/neovim.nix # Chezmoi
+#		./config/helix/helix.nix # Chezmoi
+#		./config/zsh/zsh.nix # Chezmoi
+#		./config/starship/starship.nix # Chezmoi
+#		./config/git/git.nix # Chezmoi
+#		./config/kakoune/kakoune.nix # Chezmoi
+#		./config/files/files.nix # not all, but Chezmoi
 	];
 
 	programs.home-manager.enable = true;

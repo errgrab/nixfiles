@@ -5,13 +5,14 @@
 		brave
 		brightnessctl
 		btop
+		chezmoi
 		clang
 		cozette
-		chezmoi
 		emacs
 		equibop
 		fabric-ai
 		fzf
+		ghostty
 		gnumake
 		grim
 		helix
