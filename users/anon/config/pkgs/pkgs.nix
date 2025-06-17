@@ -7,6 +7,7 @@
 		btop
 		clang
 		cozette
+		chezmoi
 		emacs
 		equibop
 		fabric-ai
