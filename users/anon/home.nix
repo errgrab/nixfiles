@@ -4,8 +4,42 @@
 
 	home.stateVersion = "25.05";
 
+	home.packages = with pkgs; [
+		aider-chat-full
+		bemenu
+		brave
+		brightnessctl
+		btop
+		chezmoi
+		clang
+		cozette
+		emacs
+		equibop
+		fabric-ai
+		fzf
+		ghostty
+		gnumake
+		grim
+		helix
+		iosevka
+		kakoune
+		kitty
+		lldb
+		llvm
+		neofetch
+		nerd-fonts.iosevka
+		nerd-fonts.monoid
+		ripgrep
+		slurp
+		tmux
+		tree
+		vscode
+		waybar
+		weechat
+		wl-clipboard
+	];
+
 	imports = [
-		./config/pkgs/pkgs.nix
 		./config/waybar/waybar.nix
 #		./config/hyprland/hyprland.nix # TODO: Why not do my config in nix?
 #		./config/kitty/kitty.nix # Chezmoi
