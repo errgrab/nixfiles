@@ -26,6 +26,7 @@
 		kitty
 		lldb
 		llvm
+		logseq
 		neofetch
 		nerd-fonts.iosevka-term
 		nerd-fonts.victor-mono
