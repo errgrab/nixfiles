@@ -23,6 +23,7 @@
 		helix
 		jujutsu
 		kakoune
+		kanata
 		kitty
 		lldb
 		llvm
