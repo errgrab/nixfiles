@@ -33,10 +33,7 @@
 		jack.enable = true;
 	};
 
-	services.bitlbee = {
-		enable = true;
-		libpurple_plugins = with pkgs; [ purple-discord ];
-	};
+	services.syncthing.enable = true;
 
 	services.avahi.enable = true;
 	services.avahi.nssmdns = true;
