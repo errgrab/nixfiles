@@ -32,6 +32,7 @@
 		nerd-fonts.zed-mono
 		ripgrep
 		slurp
+		syncthing
 		tmux
 		tree
 		vscode
