@@ -22,6 +22,7 @@
 		grim
 		helix
 		iosevka
+		jujutsu
 		kakoune
 		kitty
 		lldb
