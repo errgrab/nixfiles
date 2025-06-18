@@ -21,15 +21,15 @@
 		gnumake
 		grim
 		helix
-		iosevka
 		jujutsu
 		kakoune
 		kitty
 		lldb
 		llvm
 		neofetch
-		nerd-fonts.iosevka
-		nerd-fonts.monoid
+		nerd-fonts.iosevka-term
+		nerd-fonts.victor-mono
+		nerd-fonts.zed-mono
 		ripgrep
 		slurp
 		tmux
