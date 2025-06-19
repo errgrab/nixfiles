@@ -45,6 +45,16 @@
 
 	services.syncthing.enable = true;
 
+	home.activation.chezmoiApply = lib.hm.dag.entryAfter [ "writeBoundary" ] ''
+		echo "Running chezmoi setup..."
+
+		if [ ! -d "$HOME/.local/share/chezmoi" ]; then
+			${pkgs.chezmoi}/bin/chezmoi init --apply errgrab
+		else
+			${pkgs.chezmoi}/bin/chezmoi apply
+		fi
+	'';
+
 	imports = [
 		./config/waybar/waybar.nix
 #		./config/hyprland/hyprland.nix # TODO: Why not do my config in nix?
