@@ -43,6 +43,8 @@
 		wl-clipboard
 	];
 
+	services.syncthing.enable = true;
+
 	imports = [
 		./config/waybar/waybar.nix
 #		./config/hyprland/hyprland.nix # TODO: Why not do my config in nix?

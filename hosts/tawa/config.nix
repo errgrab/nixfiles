@@ -33,8 +33,6 @@
 		jack.enable = true;
 	};
 
-	services.syncthing.enable = true;
-
 	services.avahi.enable = true;
 	services.avahi.nssmdns = true;
 
