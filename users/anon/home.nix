@@ -49,9 +49,9 @@
 		echo "Running chezmoi setup..."
 
 		if [ ! -d "$HOME/.local/share/chezmoi" ]; then
-			${pkgs.chezmoi}/bin/chezmoi init --apply errgrab --no-tty
+			${pkgs.chezmoi}/bin/chezmoi init --apply errgrab --force
 		else
-			${pkgs.chezmoi}/bin/chezmoi apply --no-tty
+			${pkgs.chezmoi}/bin/chezmoi apply --force
 		fi
 	'';
 
