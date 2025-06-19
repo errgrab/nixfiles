@@ -1,4 +1,4 @@
-{ config, pkgs, ... }: {
+{ config, pkgs, lib, ... }: {
 	home.username = "anon";
 	home.homeDirectory = "/home/anon";
 
@@ -49,9 +49,9 @@
 		echo "Running chezmoi setup..."
 
 		if [ ! -d "$HOME/.local/share/chezmoi" ]; then
-			${pkgs.chezmoi}/bin/chezmoi init --apply errgrab
+			${pkgs.chezmoi}/bin/chezmoi init --apply errgrab --no-tty
 		else
-			${pkgs.chezmoi}/bin/chezmoi apply
+			${pkgs.chezmoi}/bin/chezmoi apply --no-tty
 		fi
 	'';
 
