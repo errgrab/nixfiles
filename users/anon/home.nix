@@ -33,7 +33,7 @@
 		nerd-fonts.iosevka-term
 		nerd-fonts.fira-code
 		pandoc
-		rg
+		ripgrep
 		ripgrep
 		slurp
 		syncthing
