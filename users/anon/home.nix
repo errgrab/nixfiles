@@ -6,6 +6,7 @@
 
 	home.packages = with pkgs; [
 		aider-chat-full
+		bat
 		bemenu
 		brave
 		brightnessctl
@@ -30,8 +31,9 @@
 		logseq
 		neofetch
 		nerd-fonts.iosevka-term
-		nerd-fonts.victor-mono
-		nerd-fonts.zed-mono
+		nerd-fonts.fira-code
+		pandoc
+		rg
 		ripgrep
 		slurp
 		syncthing
@@ -56,7 +58,7 @@
 	'';
 
 	imports = [
-		./config/waybar/waybar.nix
+#		./config/waybar/waybar.nix # TODO: Put this in Chezmoi
 #		./config/hyprland/hyprland.nix # TODO: Why not do my config in nix?
 #		./config/kitty/kitty.nix # Chezmoi
 #		./config/tmux/tmux.nix # Chezmoi

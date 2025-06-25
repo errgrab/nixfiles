@@ -4,7 +4,7 @@
 	boot.loader.systemd-boot.enable = true;
 	boot.loader.efi.canTouchEfiVariables = true;
 
-	networking.hostName = "nixos";
+	networking.hostName = "tawa";
 	# networking.wireless.enable = true;	# wpa_supplicant.
 	networking.networkmanager.enable = true;
 
@@ -35,6 +35,12 @@
 
 	services.avahi.enable = true;
 	services.avahi.nssmdns4 = true;
+
+	users.groups.uinput = { };
+
+	systemd.services.kanata-internalKeyboard.serviceConfig = {
+		SupplementaryGroups = [ "input" "uinput" ];
+	};
 
 	users.users.anon = {
 		isNormalUser = true;
