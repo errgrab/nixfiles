@@ -5,7 +5,6 @@
 	home.stateVersion = "25.05";
 
 	home.packages = with pkgs; [
-		aider-chat-full
 		bat
 		bemenu
 		brave
@@ -16,13 +15,11 @@
 		cozette
 		emacs
 		equibop
-		fabric-ai
 		fzf
 		ghostty
 		gnumake
 		grim
 		helix
-		jujutsu
 		kakoune
 		kanata
 		kitty
@@ -31,19 +28,15 @@
 		logseq
 		neofetch
 		nerd-fonts.iosevka-term
-		nerd-fonts.fira-code
 		pandoc
 		ripgrep
-		ripgrep
 		slurp
-		syncthing
 		tmux
 		tree
 		vscode
 		waybar
 		weechat
 		wl-clipboard
-		zoxide
 	];
 
 	home.activation.chezmoiApply = lib.hm.dag.entryAfter [ "writeBoundary" ] ''
