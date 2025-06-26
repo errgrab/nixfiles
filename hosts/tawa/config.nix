@@ -46,7 +46,7 @@
 		isNormalUser = true;
 		description = "Anonymous";
 		initialPassword = "244466666";
-		extraGroups = [ "networkmanager" "wheel" ];
+		extraGroups = [ "networkmanager" "wheel" "input" "uinput" ];
 		shell = pkgs.zsh;
 		packages = with pkgs; [];
 	};
