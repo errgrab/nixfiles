@@ -59,6 +59,7 @@
 	'';
 
 	imports = [
+		./config/kanata-service/service.nix
 #		./config/waybar/waybar.nix # TODO: Put this in Chezmoi
 #		./config/hyprland/hyprland.nix # TODO: Why not do my config in nix?
 #		./config/kitty/kitty.nix # Chezmoi
