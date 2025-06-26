@@ -4,7 +4,7 @@ let
 in {
   systemd.user.services.kanata = {
     Unit = {
-      Description = "Kanata keyboard remapping daemon";
+      Description = "Kanata daemon";
       After = [ "graphical-session.target" ];
     };
 
