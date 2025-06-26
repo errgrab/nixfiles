@@ -43,6 +43,7 @@
 		waybar
 		weechat
 		wl-clipboard
+		zoxide
 	];
 
 	services.syncthing.enable = true;

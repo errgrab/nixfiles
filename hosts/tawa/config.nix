@@ -42,9 +42,6 @@
 		SupplementaryGroups = [ "input" "uinput" ];
 	};
 
-	services.kanata.enable = true;
-	services.kanata.keyboards.main.configFile = "/home/anon/.config/kanata/tawa.cfg";
-
 	users.users.anon = {
 		isNormalUser = true;
 		description = "Anonymous";
