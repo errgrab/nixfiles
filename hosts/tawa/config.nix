@@ -38,10 +38,6 @@
 
 	users.groups.uinput = { };
 
-	systemd.services.kanata-internalKeyboard.serviceConfig = {
-		SupplementaryGroups = [ "input" "uinput" ];
-	};
-
 	users.users.anon = {
 		isNormalUser = true;
 		description = "Anonymous";

@@ -46,8 +46,6 @@
 		zoxide
 	];
 
-	services.syncthing.enable = true;
-
 	home.activation.chezmoiApply = lib.hm.dag.entryAfter [ "writeBoundary" ] ''
 		echo "Running chezmoi setup..."
 
